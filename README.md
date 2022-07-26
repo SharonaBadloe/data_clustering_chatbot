@@ -1,7 +1,7 @@
 # Clustering data based on sentence vectors
 
 # Task:
-Clustering costomer support data based on similar sentences for the creation of a chatbot.
+Clustering customer support data based on similar sentences for the creation of a chatbot.
 
 # Method
 - Data preprocessing: SpaCy + DataPurifier + Stanza
