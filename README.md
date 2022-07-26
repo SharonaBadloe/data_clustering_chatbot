@@ -1,12 +1,12 @@
 # Clustering data based on sentence vectors
 
 # Files
-All filepaths in the notebooks are relative to the filestructure within this github repository. 
+All filepaths in the notebooks are relative to the filestructure within this github repository. The following files can be found here:
 - Directory - data: contains original and processed data
 - Directory - results: contains 1 excel sheet for each found cluster
-- Preprocessing: contains the first preprocessing steps in this pipeline
-- Contains code for EDA and saves some stats for visualization
-- EDA: data visualization dashboard (.JPG)
+- Preprocessing.ipynb: contains the first preprocessing steps in this pipeline
+- eda.ipynb: contains code for EDA and saves some stats for visualization
+- EDA.jpg: data visualization dashboard
 - sentence_bert.ipynb: vectorizing and clustering with BERT and KMeans
 - word2vec.ipynb: vectorizing and clustering with word2vec and Kmeans
 
