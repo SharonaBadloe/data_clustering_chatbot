@@ -15,7 +15,7 @@ Clustering customer support data based on similar sentences for the creation of 
 
 # Method
 - Data preprocessing: SpaCy + DataPurifier + Stanza
-- Sentence vectorizing algorithms: Sentence Bert vs. Word2Vec
+- Sentence vectorizing algorithms: BERT vs. Word2Vec
 - Clustering algorithm: Kmeans
 
 # Other helpful algorithms
