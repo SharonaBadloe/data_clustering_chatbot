@@ -2,8 +2,13 @@
 
 # Files
 All filepaths in the notebooks are relative to the filestructure within this github repository. 
-- data: contains original and processed data
-- results: contains 1 excel sheet for each found cluster
+- Directory - data: contains original and processed data
+- Directory - results: contains 1 excel sheet for each found cluster
+- Preprocessing: contains the first preprocessing steps in this pipeline
+- Contains code for EDA and saves some stats for visualization
+- EDA: data visualization dashboard (.JPG)
+- sentence_bert.ipynb: vectorizing and clustering with BERT and KMeans
+- word2vec.ipynb: vectorizing and clustering with word2vec and Kmeans
 
 # Task:
 Clustering customer support data based on similar sentences for the creation of a chatbot.
