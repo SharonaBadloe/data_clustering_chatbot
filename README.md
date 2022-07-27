@@ -19,7 +19,7 @@ Clustering customer support data based on similar sentences for the creation of 
 - Clustering algorithm: Kmeans
 
 # Other helpful algorithms
-Another useful algorithm that was not used in this project is LDA, or Latent Dirichlet Allocation. This is a topic modelling algorithm that is widely used with good results. A topic according to this algorithm is a selection of dominant keywords that are related. Together these key words form a topic. LDA find the distribution of each topic in a document, and also calculate the proportion of each topic in relation to each other. In this way, the dominant topic + keywords can be found in each document, and over a collection of documents.
+Another useful algorithm that was not used in this project is LDA, or Latent Dirichlet Allocation. This is a topic modelling algorithm that is widely used with good results. A topic according to this algorithm is a selection of dominant keywords that are related to each other. Together these keywords form a topic. LDA finds the distribution of each topic in a document, and also calculates the proportion of each topic in relation to each other. In this way, the dominant topic + keywords can be found in each document, and over a collection of documents.
 
 # Found clusters
 - Cluster 1: 'Please provide us with more details so we can investigate this issue further'
@@ -32,6 +32,8 @@ Another useful algorithm that was not used in this project is LDA, or Latent Dir
 - Cluster 8:  Refund request
 - Cluster 9:  Order problems
 - Cluster 10: Internet connection
+
+The first 6 clusters are hugely common employee replies. Some of these replies are simply to put the customer at rest. However, responses like the one in clusters 1, 3 and 5 could be very helpful to start with. If obtaining contact information or case details in the right format can be automated, that could save the employees a lot of time. Clusters 7 to 10 are customer questions, and they are not so much homogenous sentences as the first 6 clusters. Most instances in these clusters are different questions about the same topic. These topics are however very common in the dataset, and can be used for further investigation. 
 
 # Conclusion
 For both models, it was considerably harder to spot patterns in the customer replies than it was for the employee replies. This makes sense when looking at the data/ You an easily see that the employee replies are very well structured and a lot more predictable, formal and gramatically correct. The customer questions have a wider range of vocabulary. They also use more slang, emoticons and interpunction to express how they are feeling. These variations in language can be very confusing for a language model. The Kmeans algorithm performed well but as expected, the performance was highly reliant upon the amount of clusters, the way the data was preprocessed, and the vector representation. 
