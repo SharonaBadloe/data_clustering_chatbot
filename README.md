@@ -1,7 +1,7 @@
 # Clustering data based on sentence vectors
 
 # Files
-All filepaths in the notebooks are relative to the filestructure within this github repository. The following files can be found here:
+All filepaths in the notebooks are relative to the filestructure within this github repository. The original 'data.csv' file should be put into the data folder manually, as it was too big to upload on github. The following files can be found here:
 - Directory - data: contains original and processed data
 - Directory - results: contains 1 excel sheet for each found cluster
 - Preprocessing.ipynb: contains the first preprocessing steps in this pipeline
